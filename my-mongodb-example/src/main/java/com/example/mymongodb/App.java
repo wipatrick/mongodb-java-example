@@ -52,9 +52,9 @@ public class App {
                             .append("info", new Document("x", 203).append("y", 102));
 
             Document doc2 = new Document("name", "Cassandra")
-                    .append("type", "database")
-                    .append("count", 1)
-                    .append("info", new Document("x", 123).append("y", 52));
+                            .append("type", "database")
+                            .append("count", 1)
+                            .append("info", new Document("x", 123).append("y", 52));
 
 
             /**
